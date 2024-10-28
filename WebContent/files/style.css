@@ -1,0 +1,252 @@
+BODY {
+	BACKGROUND-IMAGE: none; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; COLOR: #000000; FONT-SIZE: 12px; WORD-BREAK: break-all
+}
+TD {
+	LINE-HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 12px; WORD-BREAK: break-all
+}
+P {
+	LINE-HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 12px; WORD-BREAK: break-all
+}
+SELECT {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+.divout {
+	Z-INDEX: 1; POSITION: relative; WIDTH: 100%; HEIGHT: 14px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; TOP: 3px
+}
+.prodivout {
+	Z-INDEX: 1; POSITION: relative; WIDTH: 120px; HEIGHT: 20px; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+.shopTabOn {
+	BACKGROUND-IMAGE: url(title_more2.gif); PADDING-LEFT: 25px; BACKGROUND-REPEAT: no-repeat; COLOR: #ffffff; FONT-SIZE: 14px; CURSOR: hand; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.shopTabOff {
+	BACKGROUND-IMAGE: url(title_more1.gif); PADDING-LEFT: 25px; BACKGROUND-REPEAT: no-repeat; CURSOR: hand; FONT-WEIGHT: normal; PADDING-TOP: 5px
+}
+.fitsize1 {
+	BEHAVIOR: url(fitsize1.htc)
+}
+A {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6633; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #009900; TEXT-DECORATION: underline
+}
+A.a1:link {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a1:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a1:active {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a1:hover {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.t1 {
+	PADDING-LEFT: 8px; COLOR: #000000; FONT-SIZE: 12px
+}
+A.a2:link {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a2:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a2:active {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a2:hover {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.t2 {
+	BACKGROUND-COLOR: #b5e8fd; PADDING-LEFT: 4px; PADDING-RIGHT: 12px; COLOR: #000000; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+.va2 {
+	VERTICAL-ALIGN: top; PADDING-TOP: 8px
+}
+.vb2 {
+	BACKGROUND-IMAGE: url(top_dh1.gif); WIDTH: 3px; HEIGHT: 22px
+}
+A.a3:link {
+	COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a3:visited {
+	COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.a3:active {
+	COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a3:hover {
+	COLOR: #666666; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.bg-booter {
+	BACKGROUND-COLOR: #336600; COLOR: #ffffff; BORDER-TOP: #d1d1d1 1px solid; FONT-WEIGHT: bold
+}
+A.a4:link {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a4:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a4:active {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a4:hover {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a5:link {
+	COLOR: #000099; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a5:visited {
+	COLOR: #000099; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a5:active {
+	COLOR: #000099; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.a5:hover {
+	COLOR: #000099; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.mingcheng {
+	COLOR: #000000; FONT-WEIGHT: bold
+}
+.price1 {
+	FONT-FAMILY: "Tahoma", "Arial", "????"; COLOR: #999999; FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+.price2 {
+	FONT-FAMILY: "Tahoma", "Arial", "????"; COLOR: #ff6633; FONT-SIZE: 10pt
+}
+.price3 {
+	COLOR: #6fa62f; FONT-WEIGHT: bold
+}
+.price4 {
+	COLOR: #f89b22; FONT-WEIGHT: bold
+}
+.bgup {
+	BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% top
+}
+.leftnav {
+	BACKGROUND-IMAGE: url(left_titlebg.gif); PADDING-LEFT: 8px; HEIGHT: 30px; COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.mnavbor {
+	BORDER-BOTTOM: #d0cfcc 1px solid; BORDER-LEFT: #d0cfcc 1px solid; BORDER-TOP: #d0cfcc 1px solid; BORDER-RIGHT: #d0cfcc 1px solid
+}
+.mnavlbg {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #eef0f0; COLOR: #000000; FONT-WEIGHT: bold
+}
+.star {
+	COLOR: #990000
+}
+.mtitle {
+	BACKGROUND-IMAGE: url(title_bg.gif); HEIGHT: 26px; COLOR: #000000; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.mptitle {
+	COLOR: #0b6ae0; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.mt1 {
+	COLOR: #06379d; FONT-SIZE: 15px; FONT-WEIGHT: bold
+}
+.mt2 {
+	COLOR: #06379d; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.mt3 {
+	COLOR: #0000ff; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.mtop1 {
+	COLOR: #000000
+}
+.bg-top1 {
+	WIDTH: 778px; HEIGHT: 60px
+}
+.bg-top2 {
+	PADDING-BOTTOM: 10px; WIDTH: 778px; HEIGHT: 36px
+}
+.bg-top3 {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 100%; HEIGHT: 24px
+}
+.bg-top4 {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 778px
+}
+.bg-top5 {
+	WIDTH: 778px
+}
+.bg-left {
+	WIDTH: 148px; HEIGHT: 100%
+}
+.bg-left1 {
+	WIDTH: 148px; HEIGHT: 13px
+}
+.bg-cart {
+	BACKGROUND-COLOR: #ffffff
+}
+.bg-cart0 {
+	BACKGROUND-IMAGE: url(favorite.left.help.jpg)
+}
+.bg-cart1 {
+	WIDTH: 100%; COLOR: #000000
+}
+.bg-cart2 {
+	BACKGROUND-COLOR: #ffffff; HEIGHT: 1px
+}
+.bg-right {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 1px
+}
+.bg-inews {
+	BACKGROUND-IMAGE: url(title_news_bg.gif); HEIGHT: 22px; COLOR: #0199c8; FONT-WEIGHT: bold
+}
+.bg-mtitle {
+	BACKGROUND-IMAGE: url(title_bg.gif); WIDTH: 590px; HEIGHT: 27px; PADDING-TOP: 2px
+}
+.bg-mtitle2 {
+	WIDTH: 760px; HEIGHT: 12px; PADDING-TOP: 2px
+}
+.bg-service {
+	BACKGROUND-COLOR: #f0ede9
+}
+.wid-body {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 990px
+}
+.wid-main {
+	WIDTH: 609px
+}
+.wid-left {
+	WIDTH: 148px
+}
+.wid-cart {
+	WIDTH: 188px
+}
+.wid-link {
+	WIDTH: 116px
+}
+.wid-left2 {
+	WIDTH: 168px; HEIGHT: 100%
+}
+.wid-inews {
+	PADDING-LEFT: 10px; PADDING-RIGHT: 20px
+}
+.img-link {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 116px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.btn-buy {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 83px; HEIGHT: 22px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.vborder {
+	BACKGROUND-IMAGE: url(p_linebg.gif); WIDTH: 1px
+}
+.moveover {
+	BACKGROUND-IMAGE: url(default_2.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%
+}
+.move {
+	BACKGROUND-IMAGE: url(default_1.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%
+}

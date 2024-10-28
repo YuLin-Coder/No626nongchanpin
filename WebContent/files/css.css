@@ -1,0 +1,45 @@
+TD {
+	LINE-HEIGHT: 120%; COLOR: #353535; FONT-SIZE: 9pt
+}
+BODY {
+	LINE-HEIGHT: 120%; FONT-SIZE: 9pt
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	POSITION: relative; COLOR: #0099cc; TOP: 0px; RIGHT: 0px; TEXT-DECORATION: none
+}
+.wenbenkuang {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; FONT-FAMILY: "?????"; COLOR: #333333; FONT-SIZE: 9pt; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.go-wenbenkuang {
+	BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eeeeee; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: "?????"; HEIGHT: 19px; COLOR: #333333; FONT-SIZE: 9pt; BORDER-TOP: #ffffff 1px solid; CURSOR: hand; BORDER-RIGHT: #666666 1px solid; PADDING-TOP: 1px
+}
+.table-zuoyou {
+	BORDER-LEFT: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.table-shangxia {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid
+}
+.table-you {
+	BORDER-RIGHT: #cccccc 1px solid
+}
+.table-zuo {
+	BORDER-LEFT: #cccccc 1px solid
+}
+.table-shang {
+	BORDER-TOP: #cccccc 1px solid
+}
+.table-xia {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.table-xu {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}

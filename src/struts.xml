@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+	<action name="adminLogin" class="SysuserAction" method="adminLogin">
+	        <result name="success">/admin/notice.jsp</result>
+	        <result name="erro">/admin/login.jsp</result>
+	</action>
+    <action name="adminExit" class="SysuserAction" method="adminExit">
+	        <result name="success">/admin/login.jsp</result>
+	</action> 
+	<action name="adminPwdEdit" class="SysuserAction" method="adminPwdEdit">
+	        <result name="success">/admin/adminPwdEdit.jsp</result>
+	</action>
+	<action name="memberReg" class="SysuserAction" method="memberReg">
+	        <result name="success">/register.jsp</result>
+	</action>
+	<action name="memberEdit" class="SysuserAction" method="memberEdit">
+	        <result name="success">/memberinfo.jsp</result>
+	</action> 
+	<action name="memberLogin" class="SysuserAction" method="memberLogin">
+	        <result name="success">/login.jsp</result>
+	        <result name="erro">/login.jsp</result>
+	</action>
+	<action name="memberExit" class="SysuserAction" method="memberExit">
+	        <result name="success">/index.jsp</result>
+	</action> 
+	
+	
+	<action name="noticeAdd" class="NoticeAction" method="noticeAdd">
+	        <result name="success">/admin/noticeadd.jsp</result>
+	</action>
+	<action name="noticeEdit" class="NoticeAction" method="noticeEdit">
+	        <result name="success">/admin/noticeadd.jsp</result>
+	</action>
+	<action name="noticeDel" class="NoticeAction" method="noticeDel">
+	        <result name="success">/admin/notice.jsp</result>
+	</action>  
+	
+	<action name="typeAdd" class="ProtypeAction" method="typeAdd">
+	        <result name="success">/admin/protypeadd.jsp</result>
+	</action>
+	<action name="typeEdit" class="ProtypeAction" method="typeEdit">
+	        <result name="success">/admin/protypeadd.jsp</result>
+	</action>
+	<action name="typeDel" class="ProtypeAction" method="typeDel">
+	        <result name="success">/admin/protype.jsp</result>
+	        <result name="erro">/admin/protype.jsp</result>
+	</action>
+	
+	<action name="productAdd" class="ProductAction" method="productAdd">
+	        <result name="success">/admin/productadd.jsp</result>
+	</action>
+	<action name="productEdit" class="ProductAction" method="productEdit">
+	        <result name="success">/admin/productadd.jsp</result>
+	</action>
+	<action name="productDel" class="ProductAction" method="productDel">
+	        <result name="success">/admin/product.jsp</result>
+	</action>
+	<action name="productSetTj" class="ProductAction" method="productSetTj">
+	        <result name="success">/admin/productsettj.jsp</result>
+	        <result name="erro">/admin/productsettj.jsp</result>
+	</action>
+	<action name="productQxTj" class="ProductAction" method="productQxTj">
+	        <result name="success">/admin/product.jsp</result>
+	</action>
+	
+	<action name="check" class="UserValidateAction" method="check">
+	        <result name="success">/register.jsp</result>
+	</action>
+	
+	<action name="carAdd" class="CarAction" method="carAdd">
+	        <result name="success">/productDetail.jsp</result>
+	</action>
+    <action name="carDel" class="CarAction" method="carDel">
+	        <result name="success">/car.jsp</result>
+	</action>
+	
+	<action name="orderAdd" class="OrderAction" method="orderAdd">
+	        <result name="success">/orders.jsp</result>
+	</action>
+    <action name="orderDel" class="OrderAction" method="orderDel">
+	        <result name="success">/orders.jsp</result>
+	</action>
+	<action name="adminDelOrder" class="OrderAction" method="adminDelOrder">
+	        <result name="success">/admin/orders.jsp</result>
+	</action>
+	<action name="orderFk" class="OrderAction" method="orderFk">
+	        <result name="success">/bank.jsp</result>
+	</action>
+	<action name="orderHdFk" class="OrderAction" method="orderHdFk">
+	        <result name="success">/orders.jsp</result>
+	</action>
+	<action name="orderFh" class="OrderAction" method="orderFh">
+	        <result name="success">/admin/orders.jsp</result>
+	</action>
+	<action name="orderTh" class="OrderAction" method="orderTh">
+	        <result name="success">/ordersTh.jsp</result>
+	</action>
+	<action name="orderThQx" class="OrderAction" method="orderThQx">
+	        <result name="success">/orders.jsp</result>
+	</action>
+	<action name="adminOrderTh" class="OrderAction" method="adminOrderTh">
+	        <result name="success">/admin/ordersth.jsp</result>
+	</action>
+	
+	
+	
+	
+	<action name="msgAdd" class="MsgAction" method="msgAdd">
+	        <result name="success">/msg.jsp</result>
+	</action>
+	<action name="msgReply" class="MsgAction" method="msgReply">
+	        <result name="success">/admin/msghf.jsp</result>
+	</action>
+	<action name="msgDel" class="MsgAction" method="msgDel">
+	        <result name="success">/admin/msg.jsp</result>
+	</action>
+
+	<action name="imgAdvAdd" class="ImgadvAction" method="imgAdvAdd">
+	        <result name="success">/admin/imgadvadd.jsp</result>
+	        <result name="erro">/admin/imgadvadd.jsp</result>
+	</action>
+	<action name="imgAdvEdit" class="ImgadvAction" method="imgAdvEdit">
+	        <result name="success">/admin/imgadvadd.jsp</result>
+	</action>
+	<action name="imgAdvDel" class="ImgadvAction" method="imgAdvDel">
+	        <result name="success">/admin/imgadv.jsp</result>
+	</action>
+	
+	<action name="recordAdd" class="KcrecordAction" method="recordAdd">
+	        <result name="success">/admin/productrk.jsp</result>
+	</action>
+
+
+
+    </package>
+</struts>
